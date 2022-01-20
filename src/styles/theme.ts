@@ -1,7 +1,9 @@
 export const theme = {
   colors: {
     background: 'darkslateblue',
+    backgroundPage: 'gray',
     text: 'white',
-    title: 'cyan'
+    title: 'hotpink',
+    border: 'hotpink'
   }
 }

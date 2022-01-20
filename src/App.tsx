@@ -1,10 +1,17 @@
 import React from 'react';
+import { ThemeProvider } from 'styled-components'
+import { GlobalStyle } from './styles/global';
+import { Container } from './styles/style';
+import { theme } from './styles/theme';
 
 function App() {
   return (
-    <div>
-      Commit inicial
-    </div>
+    <ThemeProvider theme={theme}>
+      <Container>
+        Commit inicial
+      </Container>
+      <GlobalStyle/>
+    </ThemeProvider>
   );
 }
 
